@@ -1,0 +1,2972 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/pxt6pum.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>COLLECTING GUNS || HOME PAGE</title>
+  </head>
+
+  <body>
+    <header class="md:pt-[30px] pt-5 absolute top-0 left-0 w-full z-30">
+      <div class="max-w-[1136px] mx-auto px-5">
+        <nav>
+          <div class="flex flex-wrap items-center justify-between">
+            <a
+              href="index.html"
+              class="flex items-center space-x-3 rtl:space-x-reverse lg:max-w-full md:max-w-[140px] max-w-[150px] relative z-[100]"
+            >
+              <img src="images/black-brand.svg" alt="" />
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse h-[46px]">
+              <a
+                href="#"
+                data-modal-target="default-modal"
+                data-modal-toggle="default-modal"
+                class="font-medium tracking-[-0.16px] text-black-300 hover:text-white md:text-base text-sm font-poppins hidden llg:flex items-center md:h-auto h-9 md:py-2.5 py-2 md:px-5 px-[15px] rounded-lg border border-solid border-black-300 hover:bg-black-300 mr-2"
+                >Login</a
+              >
+              <a
+                href="#"
+                data-modal-target="default-modal"
+                data-modal-toggle="default-modal"
+                class="font-medium tracking-[-0.16px] text-black-300 hover:text-white md:text-base !mr-2 text-sm font-poppins flex llg:hidden items-center md:h-auto h-9 md:py-2.5 py-2 md:px-5 px-[15px] rounded-lg border border-solid border-black-300 hover:bg-black-300"
+                >Login</a
+              >
+              <a
+                href="#"
+                class="font-medium tracking-[-0.16px] text-white-300 text-base font-poppins llg:flex hidden items-center px-5 py-2.5 rounded-lg bg-green-600 hover:bg-green-700"
+                >Register</a
+              >
+              <div class="!ml-0">
+                <button
+                  data-collapse-toggle="navbar-cta"
+                  type="button"
+                  class="!ml-0 menu-btn bg-orange-400 text-sm inline-flex items-center py-2 px-[15px] w-[85px] h-9 justify-center text-white-300 rounded-lg md:hidden focus:outline-none"
+                  aria-controls="navbar-cta"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <span class="block"><img src="images/hamburger-icon.svg" alt="" /></span>
+                  <p class="ml-[6px]">Menu</p>
+                </button>
+                <span
+                  class="menu-cross hidden w-9 h-9 bg-orange-400 rounded-lg items-center justify-center relative z-[9999]"
+                  ><img src="images/menu-cross.svg" alt=""
+                /></span>
+              </div>
+            </div>
+            <div
+              class="menu-inner lg:flex-row flex-col md:h-[55px] h-full items-center bg-gray-400 md:rounded-lg md:justify-between justify-start hidden w-full md:flex md:w-auto md:order-1 md:relative fixed bottom-0 md:pt-0 pt-[80px] left-0 rounded-0 z-50"
+              id="navbar-cta"
+            >
+              <div class="w-full header-menu h-full">
+                <ol
+                  class="w-full md:hidden flex justify-center items-center border-t border-b-0 border-solid border-black-400 py-5"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="sm:w-[169px] w-[160px] font-medium tracking-[-0.16px] text-black-300 text-base font-poppins flex items-center py-2.5 px-5 rounded-lg border border-solid border-black mr-4 justify-center"
+                      >Login</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium tracking-[-0.16px] sm:w-[169px] w-[160px] text-white-300 text-base font-poppins px-5 py-2.5 rounded-lg bg-green-600 flex items-center justify-center"
+                      >Register</a
+                    >
+                  </li>
+                </ol>
+                <ul
+                  class="flex flex-col h-full font-medium sm:gap-[5px] gap-0 md:flex-row sm:p-[5px] p-5 md:w-auto w-full relative sm:after:hidden after:absolute after:content after:border-t after:border-gray-800 after:top-0 after:left-1/2 after:-translate-x-1/2 after:w-[89%]"
+                >
+                  <li class="md:block md:mb-0 mb-2.5">
+                    <a
+                      href="buy.html"
+                      class="flex items-center hover:bg-gray-800 hover:rounded-lg justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] md:rounded-none rounded-[10px] py-[15px]"
+                      >Buy
+                      <span class="md:hidden block"><img src="images/menu-arw-icon.svg" alt="" class="w-[28px]" /></span
+                    ></a>
+                  </li>
+                  <li class="md:block md:mb-0 mb-2.5">
+                    <a
+                      href="sell.html"
+                      class="flex items-center hover:bg-gray-800 hover:rounded-lg justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] md:rounded-none rounded-[10px] py-[15px]"
+                      >Sell
+                      <span class="md:hidden block"><img src="images/menu-arw-icon.svg" alt="" class="w-[28px]" /></span
+                    ></a>
+                  </li>
+                  <li class="md:block md:mb-0 mb-2.5">
+                    <a
+                      href="news.html"
+                      class="flex items-center hover:bg-gray-800 hover:rounded-lg justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] md:rounded-none rounded-[10px] py-[15px]"
+                      >News & Events
+                      <span class="md:hidden block"><img src="images/menu-arw-icon.svg" alt="" class="w-[28px]" /></span
+                    ></a>
+                  </li>
+                  <li class="md:hidden block md:mb-0 mb-2.5">
+                    <a
+                      href="#"
+                      class="flex items-center hover:text-orange-400 justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] rounded-lg about-btn py-[15px]"
+                      >About
+                      <span class="md:hidden block"><img src="images/menu-arw-icon.svg" alt="" class="w-[28px]" /></span
+                    ></a>
+                  </li>
+                  <li class="md:block hidden md:mb-0 mb-2.5">
+                    <a
+                      href="#"
+                      id="dropdownDefaultButton5"
+                      data-dropdown-toggle="dropdown5"
+                      class="flex items-center focus:bg-gray-800 hover:bg-gray-800 hover:rounded-lg justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] rounded-lg about-btn py-[15px]"
+                      >About
+                      <span class="md:inline-flex ml-2 hidden items-center justify-center"
+                        ><img src="images/about-drop.svg" alt=""
+                      /></span>
+                    </a>
+                  </li>
+                  <li class="md:block md:mb-0 mb-2.5">
+                    <a
+                      href="contact.html"
+                      class="flex items-center hover:bg-gray-800 hover:rounded-lg justify-between xl:text-base md:text-sm text-[32px] md:leading-6 leading-10 text-black md:font-poppins font-capitolium md:font-medium font-bold tracking-[-0.16px] md:bg-transparent bg-white-300 h-full xl:px-[25px] px-[20px] md:rounded-none rounded-[10px] py-[15px]"
+                      >Contact
+                      <span class="md:hidden block"><img src="images/menu-arw-icon.svg" alt="" class="w-[28px]" /></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full hidden header-info-inner border-t border-black-400">
+                <a
+                  href="#"
+                  class="about-back mt-5 mb-7 mx-auto w-[90%] bg-white-300 rounded-[10px] px-5 py-2.5 flex items-center text-[32px] font-capitolium text-black-300 font-bold leading-[40px] tracking-[-0.32px]"
+                  ><span class="block mr-5"><img src="images/arw-left.svg" /></span>About</a
+                >
+                <ol class="header-info px-10">
+                  <li class="border-b border-solid border-black-400 pb-6">
+                    <a
+                      href="#"
+                      class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+                      >Example Page One <img src="images/menu-arw-icon.svg" alt="" class="w-[22px]"
+                    /></a>
+                    <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+                      Lorem ipsum dolor sit amet consectetur. Enim diam gravida dictum phasellus massa. Erat quis
+                      molestie sed.
+                    </p>
+                  </li>
+                  <li class="border-b border-solid border-black-400 py-6">
+                    <a
+                      href="#"
+                      class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+                      >Example Page Two <img src="images/menu-arw-icon.svg" alt="" class="w-[22px]"
+                    /></a>
+                    <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+                      Amet consectetur. Enim diam sed gravida dictum phasellus massa. Erat quis molestie aenean eros
+                      ante. Enim diam sed gravida dictum.
+                    </p>
+                  </li>
+                  <li class="border-b border-solid border-black-400 py-6">
+                    <a
+                      href="#"
+                      class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+                      >Example Page Three <img src="images/menu-arw-icon.svg" alt="" class="w-[22px]"
+                    /></a>
+                    <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+                      Erat quis molestie aenean eros ante. Enim diam sed gravida dictum phasellus massa.
+                    </p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Dropdown menu -->
+    <div
+      id="dropdown5"
+      class="z-50 hidden !top-[15px] bg-white-300 rounded-xl shadow w-full max-w-[370px] sm:p-7 p-5 dropdown"
+    >
+      <ul class="" aria-labelledby="dropdownDefaultButton">
+        <li class="border-b border-solid border-black-400 pb-6">
+          <a href="#">
+            <button
+              href="#"
+              class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+            >
+              Example Page One <img src="images/menu-arw-icon.svg" alt="" />
+            </button>
+            <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+              Lorem ipsum dolor sit amet consectetur. Enim diam gravida dictum phasellus massa. Erat quis molestie sed.
+            </p>
+          </a>
+        </li>
+
+        <li class="border-b border-solid border-black-400 py-6">
+          <a href="#">
+            <button
+              href="#"
+              class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+            >
+              Example Page One <img src="images/menu-arw-icon.svg" alt="" />
+            </button>
+            <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+              Lorem ipsum dolor sit amet consectetur. Enim diam gravida dictum phasellus massa. Erat quis molestie sed.
+            </p>
+          </a>
+        </li>
+        <li class="pt-6">
+          <a href="#">
+            <button
+              href="#"
+              class="mb-2.5 font-poppins text-base font-medium tracking-[-0.16px] text-black-300 flex items-center justify-start gap-3"
+            >
+              Example Page One <img src="images/menu-arw-icon.svg" alt="" />
+            </button>
+            <p class="text-[11px] text-black-300 font-normal leading-4 tracking-[-0.11px] font-poppins">
+              Lorem ipsum dolor sit amet consectetur. Enim diam gravida dictum phasellus massa. Erat quis molestie sed.
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-white-300 md:pt-[135px] sm:pt-24 pt-24">
+      <div class="max-w-[1136px] mx-auto px-5">
+        <div class="flex items-cemter justify-between py-[11px] border-y border-gray-400">
+          <div class="flex items-center justify-start gap-[10px] back-btn cursor-pointer">
+            <button type="button" class="w-6 h-6 rounded-[4px] flex items-center justify-center bg-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path
+                  d="M5 9L1 5L5 1"
+                  stroke="#242D1C"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <span class="text-black-300 font-poppins text-base font-semibold leading-[150%] ssm:block hidden"
+              >Back to all results</span
+            >
+          </div>
+          <div class="flex items-center justify-start gap-7">
+            <div class="flex items-center justify-start gap-6 bg-gray-400 py-2 sm:px-6 px-4 rounded-lg">
+              <p class="ssm:text-base text-sm text-black-300 font-poppins font-normal leading-[150%]">
+                Bids: <b>13</b>
+              </p>
+              <p class="ssm:text-base text-sm text-black-300 font-poppins font-normal leading-[150%]">
+                Watchers: <b>186</b>
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center justify-start gap-[10px] back-btn cursor-pointer">
+            <span class="text-black-300 font-poppins text-base font-semibold leading-[150%] ssm:block hidden"
+              >Share</span
+            >
+            <button type="button" class="w-6 h-6 rounded-[4px] flex items-center justify-center bg-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 4.24615C12 4.37307 11.9469 4.49326 11.855 4.57416L7.51766 8.39505C7.39864 8.49989 7.23387 8.52197 7.09416 8.45184C6.95479 8.38171 6.86556 8.2318 6.86556 8.06717V6.53633C4.09002 6.71768 1.71265 8.78235 1.0051 11.682C0.959519 11.8692 0.800956 12 0.619713 12C0.438469 12 0.279807 11.8692 0.234322 11.682C0.0789205 11.0451 0 10.3858 0 9.72278C0 7.65165 0.755695 5.70457 2.12764 4.24001C3.40531 2.87619 5.07516 2.08288 6.86556 1.98027V0.425146C6.86556 0.260515 6.95479 0.11074 7.09416 0.0405824C7.2339 -0.0295484 7.39864 -0.00759766 7.51766 0.0972398L11.855 3.91827C11.9469 3.99903 12 4.11933 12 4.24615Z"
+                  fill="#242D1C"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="sm:py-10 py-5">
+        <div class="max-w-[1136px] mx-auto px-5">
+          <div class="flex justify-between md:flex-row flex-col relative items-start lg:gap-10 gap-5 z-10">
+            <div class="lg:w-[70%] md:w-3/5 w-full flex flex-col justify-center lg:gap-0 gap-0">
+              <div class="flex flex-col lg:gap-5 gap-[10px] md:mb-0 mb-5">
+                <div class="relative">
+                  <button
+                    class="block h-full w-full"
+                    type="button"
+                    data-modal-target="popup-modal"
+                    data-modal-toggle="popup-modal"
+                  >
+                    <img src="images/gun1.png" class="h-full hover:cursor-pointer w-full rounded-lg" alt="" />
+                  </button>
+
+                  <div class="flex items-center justify-between absolute w-full top-0 left-0 px-3 pt-3">
+                    <div
+                      class="bg-black-300 hover:bg-black hover:cursor-pointer p-[7px] flex items-center justify-between gap-2 rounded-[4px]"
+                    >
+                      <img src="images/camra.svg" class="" alt="" />
+                      <span class="text-[13px] font-semibold text-white-300">12</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-start justify-between lg:gap-5 gap-[10px]">
+                  <button
+                    class="block h-full"
+                    type="button"
+                    data-modal-target="popup-modal2"
+                    data-modal-toggle="popup-modal2"
+                  >
+                    <img src="images/gun2.png" class="hover:cursor-pointer w-full rounded-md" alt="" id="gunTwo" />
+                  </button>
+                  <button
+                    class="block h-full"
+                    type="button"
+                    data-modal-target="popup-modal3"
+                    data-modal-toggle="popup-modal3"
+                  >
+                    <img src="images/gun3.png" class="hover:cursor-pointer w-full rounded-md" alt="" />
+                  </button>
+                  <button
+                    class="block h-full gunNew"
+                    type="button"
+                    data-modal-target="popup-modal4"
+                    data-modal-toggle="popup-modal4"
+                  >
+                    <img src="images/gun4.png" class="hover:cursor-pointer w-full rounded-md" alt="" />
+                    <div
+                      class="flex items-center flex-col justify-center sxs:gap-[10px] gap-[5px] z-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        class="sxs:w-auto w-[12px]"
+                      >
+                        <g clip-path="url(#clip0_1629_68644)">
+                          <path
+                            d="M10 0C4.48566 0 0 4.48609 0 10C0 15.5139 4.48566 20 10 20C15.5143 20 20 15.5139 20 10C20 4.48609 15.5143 0 10 0ZM13.9754 10.3504L8.14211 14.1004C8.07375 14.1447 7.9948 14.1667 7.91668 14.1667C7.84832 14.1667 7.77914 14.1496 7.7173 14.1158C7.58301 14.0426 7.5 13.9026 7.5 13.75V6.25C7.5 6.09742 7.58301 5.95742 7.7173 5.88418C7.84914 5.81176 8.01434 5.81621 8.14211 5.89965L13.9754 9.64965C14.0943 9.72613 14.1667 9.8584 14.1667 10C14.1667 10.1416 14.0943 10.2738 13.9754 10.3504Z"
+                            fill="#F2EBE2"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1629_68644">
+                            <rect width="20" height="20" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p
+                        class="sxs:text-xs text-[10px] font-poppins font-semibold leading-normal text-white-300 capitalize"
+                      >
+                        VIDEO
+                      </p>
+                    </div>
+                  </button>
+                  <button
+                    class="block h-full gunNew"
+                    type="button"
+                    data-modal-target="popup-modal5"
+                    data-modal-toggle="popup-modal5"
+                  >
+                    <img src="images/gunNew.png" class="hover:cursor-pointer w-full rounded-md" alt="" />
+                    <div
+                      class="flex items-center flex-col justify-center sxs:gap-[10px] gap-[5px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        class="sxs:w-auto w-[12px]"
+                      >
+                        <g clip-path="url(#clip0_1629_67967)">
+                          <path
+                            d="M10 7.65625C11.2944 7.65625 12.3438 8.70558 12.3438 10C12.3438 11.2944 11.2944 12.3438 10 12.3438C8.70558 12.3438 7.65625 11.2944 7.65625 10C7.65625 8.70558 8.70558 7.65625 10 7.65625Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M10 0C11.2944 0 12.3438 1.04933 12.3438 2.34375C12.3438 3.63817 11.2944 4.6875 10 4.6875C8.70558 4.6875 7.65625 3.63817 7.65625 2.34375C7.65625 1.04933 8.70558 0 10 0Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M10 15.3125C11.2944 15.3125 12.3438 16.3618 12.3438 17.6562C12.3438 18.9507 11.2944 20 10 20C8.70558 20 7.65625 18.9507 7.65625 17.6562C7.65625 16.3618 8.70558 15.3125 10 15.3125Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M18.0333 7.68707C19.311 7.89447 20.1786 9.09837 19.9712 10.3761C19.7638 11.6538 18.5599 12.5214 17.2822 12.314C16.0045 12.1066 15.1369 10.9027 15.3443 9.62501C15.5517 8.34731 16.7556 7.47967 18.0333 7.68707Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M18.0333 0.0313046C19.311 0.238704 20.1786 1.44261 19.9712 2.7203C19.7638 3.998 18.5599 4.86564 17.2822 4.65824C16.0045 4.45084 15.1369 3.24694 15.3443 1.96925C15.5517 0.691551 16.7556 -0.176094 18.0333 0.0313046Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M19.3156 15.999C20.2309 16.9143 20.2309 18.3982 19.3156 19.3135C18.4003 20.2288 16.9163 20.2288 16.001 19.3135C15.0857 18.3982 15.0857 16.9143 16.001 15.999C16.9163 15.0837 18.4003 15.0837 19.3156 15.999Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M2.34375 7.65625C3.63817 7.65625 4.6875 8.70558 4.6875 10C4.6875 11.2944 3.63817 12.3438 2.34375 12.3438C1.04933 12.3438 0 11.2944 0 10C0 8.70558 1.04933 7.65625 2.34375 7.65625Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M2.34375 0C3.63817 0 4.6875 1.04933 4.6875 2.34375C4.6875 3.63817 3.63817 4.6875 2.34375 4.6875C1.04933 4.6875 0 3.63817 0 2.34375C0 1.04933 1.04933 0 2.34375 0Z"
+                            fill="#F2EBE2"
+                          />
+                          <path
+                            d="M2.34375 15.3125C3.63817 15.3125 4.6875 16.3618 4.6875 17.6562C4.6875 18.9507 3.63817 20 2.34375 20C1.04933 20 0 18.9507 0 17.6562C0 16.3618 1.04933 15.3125 2.34375 15.3125Z"
+                            fill="#F2EBE2"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1629_67967">
+                            <rect width="20" height="20" fill="white" transform="matrix(1 0 0 -1 0 20)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p
+                        class="sxs:text-xs text-[10px] font-poppins font-semibold leading-normal text-white-300 capitalize"
+                      >
+                        gallery
+                      </p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="border-t border-gray-400 py-5 md:hidden block">
+                <div>
+                  <a
+                    href="#"
+                    class="bg-green-600 inline-block py-[2px] px-2 mr-[2px] rounded text-xs text-white-300 font-poppins font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    AUCTION
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-gray-400 inline-block py-[2px] px-2 rounded text-black-300 font-poppins text-xs font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    SHOTGUNS
+                  </a>
+                </div>
+                <!-- CapitoliumNews  -->
+                <h4
+                  class="lg:text-[38px] sm:text-[30px] text-[24px] font-bold pt-4 pb-5 font-capitolium !leading-[125%]"
+                >
+                  Caesar Guerini Apex 20Ga
+                </h4>
+                <div class="flex items-center justify-between gap-3 border-t border-gray-400 pt-5">
+                  <div
+                    class="bg-green-600 rounded-lg py-5 flex-col flex items-center justify-center w-full font-poppins h-[95px]"
+                  >
+                    <h5 class="text-2xl font-semibold leading-normal text-white-300">£7,449.00</h5>
+                    <p class="text-center text-xs font-normal uppercase pt-1 text-white-300">Current Bid</p>
+                  </div>
+                  <div
+                    class="bg-gray-400 rounded-lg py-5 flex-col flex items-center justify-center w-full font-poppins h-[95px]"
+                  >
+                    <h5 class="text-2xl font-semibold leading-normal text-black-300">04:29:29</h5>
+                    <p class="text-center text-xs font-normal uppercase pt-1 text-black-300">TIME REMAINING</p>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between gap-3 mt-3">
+                  <button
+                    type="button"
+                    id="place"
+                    data-drawer-target="drawer-example"
+                    data-drawer-show="drawer-example"
+                    aria-controls="drawer-example"
+                    class="bg-orange-400 w-full text-center hover:bg-orange-900 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300"
+                  >
+                    Place bid
+                  </button>
+                  <div
+                    class="bg-black-300 hover:bg-black hover:cursor-pointer sm:w-12 w-16 h-12 flex items-center justify-center gap-2 rounded-lg"
+                  >
+                    <img src="images/hearth.svg" class="" alt="" />
+                  </div>
+                </div>
+                <div class="h-[1px] w-full bg-gray-400 my-5"></div>
+
+                <div class="font-poppins bg-gray-400 lg:p-8 p-5 rounded-xl">
+                  <span class="text-orange-400 text-xs font-semibold leading-normal uppercase">Specifications</span>
+                  <ul class="flex flex-col justify-start gap-2 mt-4 mb-5">
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Make: <b>Caesar Guerini</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Model: <b>Apex</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Mechanism: <b>Over and Under</b>
+                    </li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Condition: <b>New</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Calibre: <b>20 Gauge</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Orientation: <b>Ambidextrous</b>
+                    </li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Barrel Length: <b>30”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Stock Length: <b>13.75”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Chamber length: <b>3”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Weight: <b>7 lbs 4 oz3”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Choke: <b>Multi</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Serial Number:: <b>1290488</b>
+                    </li>
+                  </ul>
+                  <span
+                    class="text-orange-400 sm:text-xs text-[10px] font-semibold leading-normal tracking-[1.2px] uppercase font-poppins"
+                    >Servicing & History</span
+                  >
+                  <p class="text-xs font-normal leading-[150%] text-black-300 pt-[15px]">
+                    Last service carried out by, the Woodworking Gunsmith Based in Yorkshire.
+                  </p>
+                </div>
+              </div>
+              <div class="border-y border-gray-400 lg:pt-10 sm:pb-0 pt-5 font-poppins sm:mt-[28px] mt-0">
+                <h5
+                  class="text-black-300 text-[21px] font-capitolium leading-[125%] font-bold sm:hidden block sm:mb-8 mb-5"
+                >
+                  Summary
+                </h5>
+                <p class="text-black-300 sxs:text-[17px] text-[15px] font-normal leading-[150%] mb-7">
+                  An exquisite over-and-under shotgun that combines Italian craftsmanship with modern engineering,
+                  catering to discerning shooters who appreciate both performance and aesthetics. Caesar Guerini is
+                  well-regarded for producing high-quality shotguns, and the Apex is no exception.
+                </p>
+                <h5
+                  class="text-black-300 text-[21px] font-capitolium leading-[125%] font-bold sm:hidden block mt-10 mb-5"
+                ></h5>
+                <p class="text-black-300 sxs:text-[17px] text-[15px] font-normal leading-[150%] mb-7">
+                  The Apex  is characterised by its elegant design and meticulous attention to detail. The walnut stock
+                  is carefully selected for its quality and beauty, featuring fine checkering that not only enhances the
+                  grip but also adds a touch of refinement. The stock is expertly shaped to provide a comfortable and
+                  natural feel for the shooter.
+                </p>
+                <h5
+                  class="text-black-300 text-[21px] font-capitolium leading-[125%] font-bold sm:hidden block mt-10 mb-5"
+                >
+                  Details
+                </h5>
+                <p class="text-black-300 sxs:text-[17px] text-[15px] font-normal leading-[150%] mb-7">
+                  The receiver of the Apex is adorned with detailed engraving, showcasing intricate scrollwork. This
+                  engraving is done by skilled artisans, making each Apex shotgun a unique piece of functional art. The
+                  attention to aesthetics extends to every part of the firearm, contributing to its overall visual
+                  appeal.
+                </p>
+                <h5
+                  class="text-black-300 text-[21px] font-capitolium leading-[125%] font-bold sm:hidden block mt-10 mb-5"
+                >
+                  Performance
+                </h5>
+                <p class="text-black-300 sxs:text-[17px] text-[15px] font-normal leading-[150%] mb-7">
+                  Functionally, the Apex is designed to deliver top-notch performance. The barrel provides a balance
+                  between power and reduced recoil, making it versatile for various shooting applications. 
+                </p>
+
+                <p class="text-black-300 sxs:text-[17px] text-[15px] font-normal leading-[150%] pb-[50px]">
+                  The Apex is equipped with the DTS (Dynamic Tuning System) trigger system, offering a crisp and
+                  responsive pull. This enhances the shooter's ability to achieve consistent and accurate shots. The
+                  gun's overall balance and handling characteristics are carefully considered to provide an enjoyable
+                  and effective shooting experience.
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-black-300 font-bold md:text-[38px] sm:text-[30px] text-[24px] leading-[125%] font-capitolium mt-[40px]"
+                >
+                  Bidding History
+                </h4>
+                <p class="font-poppins text-black-300 text-[15px] font-normal leading-[150%] pt-5">
+                  Lorem ipsum dolor sit amet consectetur. Enim diam sed gravida dictum phasellus massa. Erat quis
+                  molestie aenean eros ante. Enim diam sed gravida dictum phasellus massa.
+                </p>
+                <ul class="font-poppins my-10 lg:block hidden">
+                  <li
+                    class="text-orange-400 text-xs font-semibold leading-[120%] uppercase flex items-center justify-between pb-5 border-b border-gray-400"
+                  >
+                    <span class="w-4/12">Bid amount</span> <span class="w-4/12">Bidder</span>
+                    <span class="w-4/12">bid time</span>
+                  </li>
+
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 block text-[15px] font-semibold leading-[150%]">£7,449.00</span>
+                    <span class="text-green-600 w-1/3 block text-[15px] font-normal leading-[150%]"
+                      >LoremIpsumDolor12</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >12 Dec 2023 at 09:42am</span
+                    >
+                  </li>
+
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£7,420.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]"
+                      >SitAmetConsecteturEnim</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >12 Dec 2023 at 09:42am</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£7,299.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">LoremIpsumDolor12</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >11 Dec 2023 at 09:12pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£6,500.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">Sed_Gravida1954</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >11 Dec 2023 at 06:24pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£6,450.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]"
+                      >DictumPhasellusMassa</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >11 Dec 2023 at 06:08pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£6,125.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">LoremIpsumDolor12</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >11 Dec 2023 at 11:52am</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£5,999.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]"
+                      >DictumPhasellusMassa</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >10 Dec 2023 at 08:22pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£5,849.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">ErosAnte01</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >10 Dec 2023 at 01:43pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£5,800.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]"
+                      >SitAmetConsecteturEnim</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >10 Dec 2023 at 07:20am</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£5,675.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">LoremIpsumDolor12</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >9 Dec 2023 at 10:12pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£5,500.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]"
+                      >DictumPhasellusMassa</span
+                    >
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >9 Dec 2023 at 08:32pm</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£4,299.00</span>
+                    <span class="text-green-600 w-1/3 text-[15px] font-normal leading-[150%]">Sed_Gravida1954</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >7 Dec 2023 at 09:06am</span
+                    >
+                  </li>
+                  <li class="lowercase flex items-center justify-between py-3 border-b border-gray-400">
+                    <span class="text-black-300 w-1/3 text-[15px] font-semibold leading-[150%]">£4,250.00</span>
+                    <span class="text-orange-400 w-1/3 text-[15px] font-normal leading-[150%]">Starting Price</span>
+
+                    <span class="w-1/3 text-black-300 text-[15px] font-normal leading-[150%]"
+                      >5 Dec 2023 at 08:26am</span
+                    >
+                  </li>
+                </ul>
+                <ul class="font-poppins lg:hidden block sm:my-[30px] my-5 lowercase">
+                  <li class="flex flex-col items-start justify-between py-3 border-y border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£7,449.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >LoremIpsumDolor12</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >12 Dec 2023 at 11:12am</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£7,420.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >SitAmetConsecteturEnim</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >12 Dec 2023 at 09:42am</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£7,299.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >LoremIpsumDolor12</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >11 Dec 2023 at 09:12pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£6,500.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >Sed_Gravida1954</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >11 Dec 2023 at 06:24pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£6,450.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >DictumPhasellusMassa</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >11 Dec 2023 at 06:08pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£6,125.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >LoremIpsumDolor12</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >11 Dec 2023 at 11:52am</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£5,999.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >DictumPhasellusMassa</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >10 Dec 2023 at 08:22pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£5,849.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >ErosAnte01</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >10 Dec 2023 at 01:43pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£5,800.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >SitAmetConsecteturEnim</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >10 Dec 2023 at 07:20am</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£5,675.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >LoremIpsumDolor12</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >9 Dec 2023 at 10:12pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£5,500.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >DictumPhasellusMassa</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >9 Dec 2023 at 08:32pm</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£4,299.00</span>
+                      <span class="text-green-600 block text-[15px] font-normal leading-[150%] lowercase"
+                        >Sed_Gravida1954</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >7 Dec 2023 at 09:06am</span
+                    >
+                  </li>
+                  <li class="flex flex-col items-start uppercase justify-between py-3 border-b border-gray-400">
+                    <p class="flex items-center gap-2">
+                      <span class="text-black-300 block text-[15px] font-semibold leading-[150%]">£4,250.00</span>
+                      <span class="text-orange-400 block text-[15px] font-normal leading-[150%] lowercase"
+                        >Starting Price</span
+                      >
+                    </p>
+
+                    <span class="w-full text-black-300 text-[15px] font-normal leading-[150%] lowercase sm:mt-0 mt-2"
+                      >5 Dec 2023 at 08:26am</span
+                    >
+                  </li>
+                </ul>
+                <p class="text-black-300 font-poppins text-xs font-normal leading-normal">
+                  Lorem ipsum diam sed gravida dictum phasellus massa. Erat quis molestie aenean eros ante. Enim diam
+                  sed.
+                </p>
+              </div>
+              <div class="lg:py-10 py-5 border-t border-gray-400 lg:mt-10 mt-5">
+                <h4
+                  class="text-black-300 font-bold md:text-[38px] sm:text-[30px] text-[24px] leading-[125%] font-capitolium"
+                >
+                  Ask the seller a question
+                </h4>
+                <div>
+                  <p class="text-[15px] text-black font-normal leading-[150%] my-5">
+                    Seller:<span class="font-semibold text-orange-400"> EratQuisMolestie62</span>
+                  </p>
+
+                  <div class="textArea">
+                    <textarea class="w-full h-36 bg-white rounded-lg border border-gray-400 mb-5"></textarea>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="bg-orange-400 text-center sxs:w-auto w-full inline-block hover:bg-orange-900 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300"
+                    >Login to submit</a
+                  >
+                  <h5 class="text-black-300 text-[19px] font-bold leading-[125%] font-capitolium pt-9 mb-7">
+                    Previously asked questions
+                  </h5>
+                  <div class="bg-gray-400 rounded-lg py-6 px-7">
+                    <span class="text-green-600 text-xs font-poppins font-semibold leading-[150%]"
+                      >LoremIpsumDolor12</span
+                    >
+                    <p class="text-black-300 font-poppins text-[15px] font-normal leading-[150%] mb-3 mt-[10px]">
+                      Hi seller, Lorem ipsum dolor sit amet consectetur. Enim diam sed gravida dictum phasellus massa.
+                      Erat quis molestie aenean eros ante. Enim diam sed gravida dictum phasellus?
+                    </p>
+                    <span class="text-black-300 text-xs font-poppins font-semibold leading-[150%]">3 day ago</span>
+                  </div>
+                  <div
+                    class="border border-black rounded-lg py-6 px-7 sm:max-w-[700px] max-w-[90%] ml-auto sm:mt-5 mt-3"
+                  >
+                    <span class="text-orange-400 text-xs font-poppins font-semibold leading-[150%]"
+                      >EratQuisMolestie62</span
+                    >
+                    <p class="text-black-300 font-poppins text-[15px] font-normal leading-[150%] mb-3 mt-[10px]">
+                      Hi seller, Lorem ipsum dolor sit amet consectetur. Enim diam sed gravida dictum phasellus massa.
+                      Erat quis molestie aenean eros ante. Enim diam sed gravida dictum phasellus?
+                    </p>
+                    <span class="text-black-300 text-xs font-poppins font-semibold leading-[150%]">2 day ago</span>
+                  </div>
+                  <div class="bg-gray-400 rounded-lg py-6 px-7 sm:mt-10 mt-[30px]">
+                    <span class="text-green-600 text-xs font-poppins font-semibold leading-[150%]"
+                      >SitAmetConsecteturEnim</span
+                    >
+                    <p class="text-black-300 font-poppins text-[15px] font-normal leading-[150%] mb-3 mt-[10px]">
+                      Hi. Lorem ipsum dolor sit amet consectetur. Orci senectus elementum aliquam morbi tortor
+                      pellentesque. Egestas phasellus at nam ligula massa. Ultricies tortor egestas in ut sem aliquet.
+                      Sagittis convallis nisl odio arcu. Et est sem ornare libero viverra. Sed vestibulum in elit quam
+                      urna?
+                    </p>
+                    <span class="text-black-300 text-xs font-poppins font-semibold leading-[150%]">6 days ago</span>
+                  </div>
+                  <div
+                    class="border border-black rounded-lg py-6 px-7 sm:max-w-[700px] max-w-[90%] ml-auto sm:mt-5 mt-3"
+                  >
+                    <span class="text-orange-400 text-xs font-poppins font-semibold leading-[150%]"
+                      >EratQuisMolestie62</span
+                    >
+                    <p class="text-black-300 font-poppins text-[15px] font-normal leading-[150%] mb-3 mt-[10px]">
+                      Lorem ipsum dolor sit amet consectetur. Nulla laoreet eget placerat adipiscing placerat. Quis
+                      adipiscing interdum ipsum quis cum rhoncus massa vulputate varius. Nulla ut eu leo elit metus.
+                      Amet quam risus aliquam in augue malesuada.
+                    </p>
+                    <span class="text-black-300 text-xs font-poppins font-semibold leading-[150%]">6 day ago</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[30%] md:w-2/5 w-full md:sticky relative top-5 md:block hidden">
+              <div>
+                <div>
+                  <a
+                    href="#"
+                    class="bg-green-600 inline-block py-[2px] px-2 mr-[2px] rounded text-xs text-white-300 font-poppins font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    AUCTION
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-gray-400 inline-block py-[2px] px-2 rounded text-black-300 font-poppins text-xs font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    SHOTGUNS
+                  </a>
+                </div>
+                <!-- CapitoliumNews  -->
+                <h4
+                  class="lg:text-[38px] md:text-[30px] sm:text-2xl text-2xl font-bold pt-4 pb-5 font-capitolium !leading-[125%]"
+                >
+                  Caesar Guerini Apex 20Ga
+                </h4>
+                <div class="flex items-center justify-start gap-3 border-t border-gray-400 pt-5">
+                  <div
+                    class="bg-green-600 rounded-lg py-5 flex-col flex items-center justify-center w-full sm:h-[95px] h-[70px] font-poppins"
+                  >
+                    <h5 class="text-2xl font-semibold leading-normal text-white-300">£7,449.00</h5>
+                    <p class="text-center text-xs font-normal uppercase pt-1 text-white-300">Current Bid</p>
+                  </div>
+                  <div
+                    class="bg-gray-400 rounded-lg py-5 flex-col flex items-center justify-center w-full sm:h-[95px] h-[70px] font-poppins"
+                  >
+                    <h5 class="text-2xl font-semibold leading-normal text-black-300">04:29:29</h5>
+                    <p class="text-center text-xs font-normal uppercase pt-1 text-black-300">TIME REMAINING</p>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between gap-3 mt-3">
+                  <button
+                    type="button"
+                    id="place"
+                    data-modal-target="popup-modal-new"
+                    data-modal-toggle="popup-modal-new"
+                    class="bg-orange-400 w-full text-center hover:bg-orange-900 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300"
+                  >
+                    Place bid
+                  </button>
+
+                  <div
+                    class="bg-black-300 hover:bg-black hover:cursor-pointer w-16 h-12 flex items-center justify-center rounded-lg"
+                  >
+                    <img src="images/hearth.svg" class="" alt="" />
+                  </div>
+                </div>
+                <div class="h-[0.5px] w-full bg-gray-400 my-5"></div>
+                <div class="border-b border-gray-400 my-5 pb-5">
+                  <div
+                    class="bg-gray-400 rounded-lg py-5 flex-col flex items-center justify-center w-full sm:h-[95px] h-[70px] font-poppins"
+                  >
+                    <h5 class="text-2xl font-semibold leading-normal text-black-300">£7,500.00</h5>
+                    <p class="text-center text-xs font-normal uppercase pt-1 text-black-300">BUY IT NOW PRICE</p>
+                  </div>
+                  <button
+                    type="button"
+                    class="bg-orange-400 mt-3 w-full text-center hover:bg-orange-900 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300"
+                  >
+                    But it now
+                  </button>
+                </div>
+                <div class="font-poppins bg-gray-400 lg:p-8 p-5 rounded-xl">
+                  <span class="text-orange-400 text-xs font-semibold leading-normal uppercase">Specifications</span>
+                  <ul class="flex flex-col justify-start gap-2 mt-4 mb-[30px]">
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Make: <b>Caesar Guerini</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Model: <b>Apex</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Mechanism: <b>Over and Under</b>
+                    </li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Condition: <b>New</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Calibre: <b>20 Gauge</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Orientation: <b>Ambidextrous</b>
+                    </li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Barrel Length: <b>30”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Stock Length: <b>13.75”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Chamber length: <b>3”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Weight: <b>7 lbs 4 oz3”</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">Choke: <b>Multi</b></li>
+                    <li class="text-[15px] font-normal leading-[150%] text-black-300">
+                      Serial Number:: <b>1290488</b>
+                    </li>
+                  </ul>
+                  <span
+                    class="text-orange-400 text-xs font-semibold leading-normal tracking-[1.2px] uppercase font-poppins"
+                    >Servicing & History</span
+                  >
+                  <p class="text-xs font-normal leading-[150%] text-black-300 pt-[15px]">
+                    Last service carried out by, the Woodworking Gunsmith Based in Yorkshire.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-[url(../images/sell.png)] bg-no-repeat bg-cover bg-center w-full sm:py-20 py-[60px] look"
+        id="footerNew"
+      >
+        <div class="max-w-[1136px] mx-auto px-5">
+          <div class="max-w-[550px]">
+            <span class="text-orange-400 sm:text-xs text-[10px] font-semibold leading-normal uppercase font-poppins"
+              >SELLING WITH US</span
+            >
+            <!-- CapitoliumNews  -->
+            <h4
+              class="xl:text-[50px] font-capitolium lg:text-[40px] text-[30px] font-bold lg:leading-[125%] leading-[150%] text-white-300 ssm:mt-7 mt-5"
+            >
+              Looking to sell your guns and accessories?
+            </h4>
+            <p
+              class="lg:text-base text-sm text-white-300 leading-[150%] font-normal font-poppins mb-10 ssm:mt-[27px] mt-4"
+            >
+              Sign up with Collecting Guns and begin listing your items today.
+            </p>
+            <div class="flex sm:flex-row flex-col items-center justify-start gap-3">
+              <a
+                href="#"
+                class="bg-orange-400 sm:w-auto w-full text-center hover:bg-orange-400/[0.85] rounded-lg px-6 py-3 ssm:text-base text-sm font-medium leading-[150%] font-poppins text-white-300"
+                >Sign up &amp; Start Selling</a
+              >
+              <a
+                href="#"
+                class="hover:bg-white hover:text-black-300 hover:border-black-300 border border-white-300 sm:w-auto w-full text-center rounded-lg px-6 py-3 ssm:text-base text-sm font-medium leading-[150%] font-poppins text-white-300"
+                >Find out more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!---- SLIDER POPUP ------>
+    <div
+      id="popup-modal"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-50"
+    >
+      <a
+        href="#"
+        data-modal-hide="popup-modal"
+        class="inline-flex items-center justify-center sm:w-[49px] w-9 sm:h-[49px] h-9 rounded-lg bg-orange-400 absolute top-5 right-5"
+        id="closeModal"
+      >
+        <img src="images/modalX.svg" alt="" class="sm:w-[16px] w-[11px]" />
+      </a>
+      <div class="static sm:p-4 px-[10px] py-0 lg:w-[900px] md:w-[600px] sm:w-[400px] w-full max-h-full">
+        <div class="rounded-lg shadow">
+          <div class="w-full 3xl:h-[654px] lg:h-[550px] md:h-[400px] sm:h-[400px] h-screen">
+            <div class="swiper mySwiper h-full rounded-lg">
+              <div class="swiper-wrapper rounded-lg">
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal"
+                >
+                  <img
+                    src="images/gun2.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination swiper-pagination1 mt-4 sm:static absolute text-white font-poppins font-semibold text-xs tracking-[-0.12px]"
+            ></div>
+            <div
+              class="swiper-button-next sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---- SLIDER POPUP ------>
+    <div
+      id="popup-modal2"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-50"
+    >
+      <a
+        href="#"
+        data-modal-hide="popup-modal2"
+        class="inline-flex items-center justify-center sm:w-[49px] w-9 sm:h-[49px] h-9 rounded-lg bg-orange-400 absolute top-5 right-5"
+        id="closeModal"
+      >
+        <img src="images/modalX.svg" alt="" class="sm:w-[16px] w-[11px]" />
+      </a>
+      <div class="static sm:p-4 px-[10px] py-0 lg:w-[900px] md:w-[600px] sm:w-[400px] w-full max-h-full">
+        <div class="rounded-lg shadow">
+          <div class="w-full 3xl:h-[654px] lg:h-[550px] md:h-[400px] sm:h-[400px] h-screen">
+            <div class="swiper popSwiper2 h-full rounded-lg">
+              <div class="swiper-wrapper rounded-lg">
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal2"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination swiper-pagination2 mt-4 sm:static absolute text-white font-poppins font-semibold text-xs tracking-[-0.12px]"
+            ></div>
+            <div
+              class="swiper-button-next sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---- SLIDER POPUP 3------>
+    <div
+      id="popup-modal3"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-50"
+    >
+      <a
+        href="#"
+        data-modal-hide="popup-modal3"
+        class="inline-flex items-center justify-center sm:w-[49px] w-9 sm:h-[49px] h-9 rounded-lg bg-orange-400 absolute top-5 right-5"
+        id="closeModal"
+      >
+        <img src="images/modalX.svg" alt="" class="sm:w-[16px] w-[11px]" />
+      </a>
+      <div class="static sm:p-4 px-[10px] py-0 lg:w-[900px] md:w-[600px] sm:w-[400px] w-full max-h-full">
+        <div class="rounded-lg shadow">
+          <div class="w-full 3xl:h-[654px] lg:h-[550px] md:h-[400px] sm:h-[400px] h-screen">
+            <div class="swiper popSwiper3 h-full rounded-lg">
+              <div class="swiper-wrapper rounded-lg">
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun2.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal3"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination swiper-pagination3 mt-4 sm:static absolute text-white font-poppins font-semibold text-xs tracking-[-0.12px]"
+            ></div>
+            <div
+              class="swiper-button-next sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---- SLIDER POPUP 4------>
+    <div
+      id="popup-modal4"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-50"
+    >
+      <a
+        href="#"
+        data-modal-hide="popup-modal4"
+        class="inline-flex items-center justify-center sm:w-[49px] w-9 sm:h-[49px] h-9 rounded-lg bg-orange-400 absolute top-5 right-5"
+        id="closeModal"
+      >
+        <img src="images/modalX.svg" alt="" class="sm:w-[16px] w-[11px]" />
+      </a>
+      <div class="static sm:p-4 px-[10px] py-0 lg:w-[900px] md:w-[600px] sm:w-[400px] w-full max-h-full">
+        <div class="rounded-lg shadow">
+          <div class="w-full 3xl:h-[654px] lg:h-[550px] md:h-[400px] sm:h-[400px] h-screen">
+            <div class="swiper popSwiper4 h-full rounded-lg">
+              <div class="swiper-wrapper rounded-lg">
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gunpotrait.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gun2.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal4"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination swiper-pagination4 mt-4 sm:static absolute text-white font-poppins font-semibold text-xs tracking-[-0.12px]"
+            ></div>
+            <div
+              class="swiper-button-next sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---- SLIDER POPUP 5------>
+    <div
+      id="popup-modal5"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-50"
+    >
+      <a
+        href="#"
+        data-modal-hide="popup-modal5"
+        class="inline-flex items-center justify-center sm:w-[49px] w-9 sm:h-[49px] h-9 rounded-lg bg-orange-400 absolute top-5 right-5"
+        id="closeModal"
+      >
+        <img src="images/modalX.svg" alt="" class="sm:w-[16px] w-[11px]" />
+      </a>
+      <div class="static sm:p-4 px-[10px] py-0 lg:w-[900px] md:w-[600px] sm:w-[400px] w-full max-h-full">
+        <div class="rounded-lg shadow">
+          <div class="w-full 3xl:h-[654px] lg:h-[550px] md:h-[400px] sm:h-[400px] h-screen">
+            <div class="swiper popSwiper5 h-full rounded-lg">
+              <div class="swiper-wrapper rounded-lg">
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun2.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun2.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun3.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <video
+                    src="video/QuickTip.mp4"
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                  ></video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gunNew.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+                <div
+                  class="swiper-slide rounded-lg overflow-hidden flex items-center justify-center"
+                  data-modal-hide="popup-modal5"
+                >
+                  <img
+                    src="images/gun1.png"
+                    alt=""
+                    class="w-full m-auto sm:border-2 border-[4px] border-white rounded-xl sm:h-full h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination swiper-pagination5 mt-4 sm:static absolute text-white font-poppins font-semibold text-xs tracking-[-0.12px]"
+            ></div>
+            <div
+              class="swiper-button-next sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev sm:w-[49px] w-9 sm:h-[49px] h-9 top-1/2 -translate-y-1/2 flex items-center justify-center bg-white-300 m-0 rounded-lg"
+            >
+              <svg
+                class="!w-[10px] !h-[10px] text-black-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----PLACE-BID-MODAL----->
+    <div
+      id="popup-modal-new"
+      tabindex="-1"
+      class="hidden overflow-y-auto h-full overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100% - 1rem)] max-h-full z-[9999]"
+    >
+      <div class="relative p-4 lg:w-[550px] sm:w-[550px] w-[450px] max-h-full">
+        <div class="bg-white-300 rounded-lg">
+          <button
+            type="button"
+            class="text-end flex w-full items-center justify-end pt-5 pr-5 cursor-pointer"
+            id="close"
+            data-dismiss="modal"
+          >
+            <img src="images/close.svg" alt="" />
+          </button>
+          <div class="p-12 pt-0">
+            <h4 class="text-black-300 font-capitolium text-[26px] font-bold leading-[125%]">Place bid</h4>
+            <div class="border-t border-black-500 py-7 flex items-center justify-between gap-5 mt-5">
+              <img src="images/gun1.png" class="w-[150px] h-[100px] rounded-lg" alt="" />
+              <div>
+                <div>
+                  <a
+                    href="#"
+                    class="bg-green-600 inline-block py-[2px] px-2 mr-[2px] rounded text-xs text-white-300 font-poppins font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    AUCTION
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-gray-400 inline-block py-[2px] px-2 rounded text-black-300 font-poppins text-xs font-semibold tracking-[-0.12px] leading-[18px]"
+                  >
+                    SHOTGUNS
+                  </a>
+                </div>
+                <!-- CapitoliumNews  -->
+                <h4 class="lg:text-lg text-md mt-2 font-bold pb-2 font-capitolium !leading-[125%]">
+                  Caesar Guerini Apex 20Ga
+                </h4>
+                <p class="text-black-300 text-xs font-normal leading-[150%]">
+                  An exquisite over-and-under shotgun that combines Italian craftsmanship with modern...
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-start gap-4 border-y border-black-500 py-7">
+              <div
+                class="bg-green-600 rounded-lg flex-col flex items-center justify-center w-full font-poppins h-[95px]"
+              >
+                <h5 class="text-2xl font-semibold leading-normal text-white-300">£7,449.00</h5>
+                <p class="text-center text-xs font-normal uppercase pt-1 text-white-300">Current Bid</p>
+              </div>
+              <div
+                class="bg-gray-400 rounded-lg flex-col flex items-center justify-center w-full font-poppins h-[95px]"
+              >
+                <h5 class="text-2xl font-semibold leading-normal text-black-300">04:29:29</h5>
+                <p class="text-center text-xs font-normal uppercase pt-1 text-black-300">TIME REMAINING</p>
+              </div>
+            </div>
+            <p class="text-black-300 text-xs font-normal leading-[150%] sm:mt-[26px] mt-5 sm:mb-5 mb-[10px]">
+              <b>Please enter your bid below.</b> Your bid must be at least £5.00 greater than the current winning bid
+              shown above.
+            </p>
+            <div>
+              <div class="relative">
+                <input
+                  type="text"
+                  placeholder="Enter your bid..."
+                  class="placeholder:text-gray-600 relative py-[15px] bg-gray-400 rounded-lg flex border focus:border-orange-400 border-gray-800 pl-9 bid-box text-[15px] font-normal leading-[150%] font-poppins w-full focus:ring-0"
+                />
+                <img src="images/£.svg" class="absolute top-1/2 -translate-y-1/2 left-5" alt="" />
+              </div>
+              <button
+                type="button"
+                class="bg-orange-400 w-full text-center hover:bg-red-600 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300 mt-3"
+              >
+                Place bid
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- drawer component -->
+    <div
+      id="drawer-example"
+      class="fixed top-0 left-0 w-full rounded-b-xl h-auto px-5 sm:pt-7 pt-6 sm:pb-7 pb-6 overflow-y-auto transition-transform -translate-x-full bg-white-300 z-[9999]"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div class="flex items-center justify-between">
+        <h5
+          id="drawer-label"
+          class="inline-flex items-center sm:mb-4 mb-0 text-black-300 font-capitolium sm:text-[26px] text-[21px] font-bold leading-[125%]"
+        >
+          Place bid
+        </h5>
+
+        <button
+          type="button"
+          data-drawer-hide="drawer-example"
+          aria-controls="drawer-example"
+          class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 static top-6 end-4 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <rect width="36" height="36" rx="8" fill="#E7600E" />
+            <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+            <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span class="sr-only">Close menu</span>
+        </button>
+      </div>
+
+      <div class="border-t border-black-500 sm:py-7 py-4 flex items-center justify-between gap-5 mt-5">
+        <div>
+          <div>
+            <a
+              href="#"
+              class="bg-green-600 inline-block py-[2px] px-2 mr-[2px] rounded text-xs text-white-300 font-poppins font-semibold tracking-[-0.12px] leading-[18px]"
+            >
+              AUCTION
+            </a>
+            <a
+              href="#"
+              class="bg-gray-400 inline-block py-[2px] px-2 rounded text-black-300 font-poppins text-xs font-semibold tracking-[-0.12px] leading-[18px]"
+            >
+              SHOTGUNS
+            </a>
+          </div>
+          <!-- CapitoliumNews  -->
+          <h4 class="text-2xl font-bold pb-2 mt-2 font-capitolium !leading-[125%]">Caesar Guerini Apex 20Ga</h4>
+          <p class="text-black-300 text-xs font-normal leading-[150%]">
+            An exquisite over-and-under shotgun that combines Italian craftsmanship with modern...
+          </p>
+        </div>
+      </div>
+      <div class="flex items-center justify-start gap-4 border-y border-black-500 sm:py-7 py-4">
+        <div class="bg-green-600 rounded-lg flex-col flex items-center justify-center w-full font-poppins h-[95px]">
+          <h5 class="text-2xl font-semibold leading-normal text-white-300">£7,449.00</h5>
+          <p class="text-center text-xs font-normal uppercase pt-1 text-white-300">Current Bid</p>
+        </div>
+        <div class="bg-gray-400 rounded-lg flex-col flex items-center justify-center w-full font-poppins h-[95px]">
+          <h5 class="text-2xl font-semibold leading-normal text-black-300">04:29:29</h5>
+          <p class="text-center text-xs font-normal uppercase pt-1 text-black-300">TIME REMAINING</p>
+        </div>
+      </div>
+      <p class="text-black-300 text-xs font-normal leading-[150%] sm:mt-[26px] mt-5 sm:mb-5 mb-[15px]">
+        <b>Please enter your bid below.</b> Your bid must be at least £5.00 greater than the current winning bid shown
+        above.
+      </p>
+      <div>
+        <div class="bg-gray-400 rounded-lg relative flex border border-gray-800 pl-5">
+          <img src="images/£.svg" alt="" />
+          <input
+            type="text"
+            placeholder="Enter your bid..."
+            class="placeholder:text-gray-600 text-[15px] py-[15px] font-normal leading-[150%] font-poppins w-full rounded-lg bg-gray-400 border-0 focus:ring-0"
+          />
+        </div>
+        <button
+          type="button"
+          class="bg-orange-400 w-full text-center hover:bg-orange-500 rounded-lg px-6 py-3 text-base font-medium leading-[150%] font-poppins text-white-300 mt-3"
+        >
+          Place bid
+        </button>
+      </div>
+    </div>
+
+    <footer class="bg-black-300 sm:py-20 pt-10 sm:pb-10 pb-[30px]">
+      <div class="max-w-[1136px] mx-auto px-5">
+        <div class="flex items-start justify-between flex-wrap sm:mb-0 mb-10">
+          <div class="lg:w-auto w-full">
+            <a href="#" class="sm:mb-[30px] mb-5 flex items-center"><img src="images/brand.svg" alt="" /></a>
+            <p
+              class="text-xs text-gray-400 leading-[18px] tracking-[-0.12px] font-poppins pb-9 lg:max-w-[254px] max-w-full w-full"
+            >
+              A UK based auction site devoted to everything guns. We are open for bids 24/7 with new lots going live
+              every day.
+            </p>
+            <ul class="flex items-center pb-10">
+              <li class="mr-[30px]">
+                <a href="#"><img src="images/fb.svg" alt="" /></a>
+              </li>
+              <li class="mr-[30px]">
+                <a href="#"><img src="images/insta.svg" alt="" /></a>
+              </li>
+              <li class="mr-[30px]">
+                <a href="#"><img src="images/twitter.svg" alt="" /></a>
+              </li>
+              <li class="mr-[30px]">
+                <a href="#"><img src="images/linkden.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/youtube.svg" alt="" /></a>
+              </li>
+            </ul>
+            <div class="ftr-btn flex items-center sm:gap-2 gap-4 pb-10 justify-start">
+              <a
+                href="#"
+                class="font-medium tracking-[-0.16px] text-white-300 text-base font-poppins px-5 py-2.5 rounded-lg bg-green-600 sm:max-w-auto sm:w-auto max-w-[169px] w-full flex items-center justify-center hover:bg-green-800"
+                >Register</a
+              >
+              <a
+                href="#"
+                class="font-medium tracking-[-0.16px] text-white-300 text-base font-poppins flex items-center py-2.5 px-5 rounded-lg border border-solid sm:max-w-auto sm:w-auto max-w-[169px] w-full border-white-300 mr-2 justify-center hover:bg-black hover:text-white-300 hover:border hover:border-black"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="sm:w-auto w-1/2 lg:mb-0 mb-10">
+            <h5 class="text-orange-700 font-poppins text-base font-medium tracking-[-0.16px] lg:pb-[35px] pb-5">
+              Sitemap
+            </h5>
+            <ul>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Buy a gun</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Sell with us</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >About Us</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Latest News
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sm:w-auto w-1/2 sm:mb-0 mb-10">
+            <h5 class="text-orange-700 font-poppins text-base font-medium tracking-[-0.16px] lg:pb-[35px] pb-5">
+              Lorem
+            </h5>
+            <ul>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Ipsum</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Dolor sit</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Consectetur</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Dictum
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Purus sit quis</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sm:w-auto w-1/2">
+            <h5 class="text-orange-700 font-poppins text-base font-medium tracking-[-0.16px] lg:pb-[35px] pb-5">
+              Categories
+            </h5>
+            <ul>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Shotguns</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Rifles</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Air Rifles</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Pistols
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Air Pistols</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sm:w-auto w-1/2">
+            <h5 class="text-orange-700 font-poppins text-base font-medium tracking-[-0.16px] lg:pb-[35px] pb-5">
+              Legal
+            </h5>
+            <ul>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Cookie Policy</a
+                >
+              </li>
+              <li class="lg:mb-6 mb-3">
+                <a
+                  href="#"
+                  class="text-white-300 opacity-50 text-base font-medium font-poppins hover:text-orange-400 hover:opacity-100"
+                  >Posting Rules
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-[10px] text-start text-gray-400 font-poppins leading-[15px] tracking-[-0.1px] opacity-50">
+          © 2023 Collecting Guns • Web Design by <a href="#" class="underline">Yellowball</a>
+        </p>
+      </div>
+    </footer>
+    <!-- Main modal -->
+    <div
+      id="default-modal"
+      tabindex="-1"
+      aria-hidden="true"
+      class="hidden !bg-[#232c1b9e] z-[9999] h-screen overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 justify-center sm:!items-center !items-start w-full md:inset-0 max-h-full"
+    >
+      <div class="relative md:w-[550px] sm:w-[400px] w-full max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white-300 sm:rounded-xl rounded-t-none rounded-b-xl">
+          <!-- Modal header -->
+          <div class="absolute top-5 sm:right-12 right-5">
+            <button type="button" class="" data-modal-hide="default-modal">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                class="sm:block hidden"
+              >
+                <path d="M13 1L1 13" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 13L1 1" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                class="sm:hidden block"
+              >
+                <rect width="36" height="36" rx="8" fill="#E7600E" />
+                <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="sm:pt-[50px] pb-11 sm:px-[50px] px-5 p-[20px]">
+            <h4
+              class="text-black-300 sm:text-[26px] text-[32px] font-capitolium font-bold leading-[125%] pb-5 border-b border-black-500"
+            >
+              Login
+            </h4>
+            <div class="mt-7">
+              <label class="text-black-300 font-poppins text-xs font-medium leading-[150%] mb-1"
+                >Email Address or Username</label
+              >
+              <input
+                type="text"
+                class="h-[53px] px-5 w-full border border-gray-800 rounded-lg bg-gray-400 text-black-300 text-[15px] font-normal font-poppins focus:ring-orange-400 focus:border-orange-400 focus:border"
+                value="david@weareyello"
+              />
+            </div>
+            <div class="mt-5">
+              <div class="flex items-center justify-between mb-1">
+                <label class="text-black-300 font-poppins text-xs font-medium leading-[150%]">Password</label>
+                <a
+                  href="#"
+                  class="text-orange-400 font-poppins text-xs font-normal underline"
+                  data-modal-target="default-modal-forgot"
+                  data-modal-hide="default-modal"
+                  data-modal-toggle="default-modal-forgot"
+                  >Forgot password?</a
+                >
+              </div>
+
+              <div class="relative">
+                <input
+                  type="password"
+                  placeholder="Enter your password..."
+                  id="myInput"
+                  class="h-[53px] placeholder:text-gray-600 px-5 w-full border border-gray-800 rounded-lg bg-gray-400 text-black-300 text-[15px] font-normal font-poppins focus:ring-orange-400 focus:border-orange-400 focus:border"
+                />
+                <button type="button" class="bg-none absolute top-1/2 -translate-y-1/2 right-[20px]" id="togglePass">
+                  <img src="images/hideEye.svg" alt="" id="showEye1" />
+                </button>
+              </div>
+            </div>
+            <div class="!my-7">
+              <input
+                type="checkbox"
+                class="border border-gray-800 rounded-lg bg-gray-400 w-8 h-8 focus:ring-0 focus:text-black"
+              />
+              <label class="text-black-300 text-[15px] font-normal font-poppins ml-3">Keep me signed in</label>
+            </div>
+            <a
+              href="#"
+              class="bg-orange-400 rounded-lg py-3 px-6 block text-white-300 font-poppins font-medium text-center hover:bg-orange-900 transition-all"
+              >Login</a
+            >
+            <div class="flex flex-col items-center gap-3 mt-7">
+              <a href="#" class="text-black-300 text-[15px] font-normal">Don’t have an account?</a>
+              <a
+                href="#"
+                class="text-green-600 sm:border-0 border border-green-600 w-full sm:py-0 py-3 rounded-lg text-base sm:font-normal font-medium flex items-center justify-center gap-3"
+                >Register Now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  class="sm:inline-block hidden"
+                >
+                  <path
+                    d="M0.292893 9.29289C-0.0976311 9.68342 -0.0976311 10.3166 0.292893 10.7071C0.683418 11.0976 1.31658 11.0976 1.70711 10.7071L0.292893 9.29289ZM11 1C11 0.447715 10.5523 -3.74211e-07 10 4.72575e-08L1 -1.63477e-07C0.447715 -1.63477e-07 2.8711e-07 0.447715 2.8711e-07 1C2.8711e-07 1.55228 0.447715 2 1 2L9 2L9 10C9 10.5523 9.44772 11 10 11C10.5523 11 11 10.5523 11 10L11 1ZM1.70711 10.7071L10.7071 1.70711L9.29289 0.292893L0.292893 9.29289L1.70711 10.7071Z"
+                    fill="#149688"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FORGOT-MODAL -->
+    <div
+      id="default-modal-forgot"
+      tabindex="-1"
+      aria-hidden="true"
+      class="hidden !bg-[#232c1b9e] z-[9999] h-screen overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 justify-center sm:!items-center !items-start w-full md:inset-0 max-h-full"
+    >
+      <div class="relative md:w-[550px] sm:w-[400px] w-full max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white-300 sm:rounded-xl rounded-t-none rounded-b-xl">
+          <!-- Modal header -->
+          <div class="absolute top-5 sm:right-12 right-5">
+            <button type="button" class="" data-modal-hide="default-modal-forgot">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                class="sm:block hidden"
+              >
+                <path d="M13 1L1 13" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 13L1 1" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                class="sm:hidden block"
+              >
+                <rect width="36" height="36" rx="8" fill="#E7600E" />
+                <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="sm:pt-[50px] pb-11 sm:px-[50px] px-5 p-[20px]">
+            <h4
+              class="text-black-300 sm:text-[26px] text-[21px] font-capitolium font-bold leading-[125%] pb-[30px] border-b border-black-500"
+            >
+              Forgot password?
+            </h4>
+            <p class="text-black-300 font-poppins text-[15px] font-normal my-7">
+              Please enter the email address associated with your account and we’ll send you a link to reset your
+              password.
+            </p>
+            <div class="mt-7">
+              <label class="text-black-300 font-poppins text-xs font-medium leading-[150%] mb-1">Your email</label>
+              <input
+                type="text"
+                class="py-[15px] px-5 w-full border placeholder:text-gray-600 border-gray-800 rounded-lg bg-gray-400 text-black-300 text-[15px] font-normal font-poppins focus:ring-orange-400 focus:border-orange-400 focus:border"
+                placeholder="Enter your email..."
+              />
+            </div>
+
+            <a
+              href="#"
+              data-modal-target="default-modal-reset"
+              data-modal-hide="default-modal-forgot"
+              data-modal-toggle="default-modal-reset"
+              class="bg-orange-400 sm:mt-[30px] mt-5 rounded-lg py-3 px-6 block text-white-300 font-poppins font-medium text-center hover:bg-orange-900 transition-all"
+              >Send Reset Link</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RESET-MODAL -->
+    <div
+      id="default-modal-reset"
+      tabindex="-1"
+      aria-hidden="true"
+      class="hidden !bg-[#232c1b9e] z-[9999] h-screen overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 justify-center sm:!items-center !items-start w-full md:inset-0 max-h-full"
+    >
+      <div class="relative md:w-[550px] sm:w-[400px] w-full max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white-300 sm:rounded-xl rounded-t-none rounded-b-xl">
+          <!-- Modal header -->
+          <div class="absolute top-5 sm:right-12 right-5">
+            <button type="button" class="" data-modal-hide="default-modal-reset">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                class="sm:block hidden"
+              >
+                <path d="M13 1L1 13" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 13L1 1" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                class="sm:hidden block"
+              >
+                <rect width="36" height="36" rx="8" fill="#E7600E" />
+                <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="sm:pt-[50px] pb-11 sm:px-[50px] px-5 p-[20px]">
+            <h4
+              class="text-black-300 sm:text-[26px] text-[21px] font-capitolium font-bold leading-[125%] pb-[30px] border-b border-black-500"
+            >
+              Check your email
+            </h4>
+            <p class="text-black-300 font-poppins text-[15px] font-normal my-7">
+              We have sent an email to <b>example@emailaddress.com</b> with instructions on how to reset your password.
+            </p>
+            <p class="text-black-300 font-poppins text-[15px] font-normal my-7">
+              We If it doesn’t arrive soon, please check your spam folder.
+            </p>
+            <div class="flex items-center justify-start">
+              <p class="text-black-300 font-poppins font-normal text-[15px]">
+                Need help? <a href="#" class="text-orange-400 underline text-[15px] font-semibold"> Contact Us</a>
+              </p>
+            </div>
+
+            <a
+              href="#"
+              data-modal-target="default-modal-pass"
+              data-modal-hide="default-modal-reset"
+              data-modal-toggle="default-modal-pass"
+              class="bg-orange-400 mt-[30px] rounded-lg py-3 px-6 block text-white-300 font-poppins font-medium text-center hover:bg-orange-900 transition-all"
+              >Okay</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PASSWORD-MODAL -->
+    <div
+      id="default-modal-pass"
+      tabindex="-1"
+      aria-hidden="true"
+      class="hidden !bg-[#232c1b9e] z-[9999] h-screen overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 justify-center sm:!items-center !items-start w-full md:inset-0 max-h-full"
+    >
+      <div class="relative md:w-[550px] sm:w-[400px] w-full max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white-300 sm:rounded-xl rounded-t-none rounded-b-xl">
+          <!-- Modal header -->
+          <div class="absolute top-5 sm:right-12 right-5">
+            <button type="button" class="" data-modal-hide="default-modal-pass">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                class="sm:block hidden"
+              >
+                <path d="M13 1L1 13" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 13L1 1" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                class="sm:hidden block"
+              >
+                <rect width="36" height="36" rx="8" fill="#E7600E" />
+                <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="sm:pt-[50px] pb-11 sm:px-[50px] px-5 p-[20px]">
+            <h4
+              class="text-black-300 sm:text-[26px] text-[21px] font-capitolium font-bold leading-[125%] pb-[30px] border-b border-black-500"
+            >
+              Enter new passoword
+            </h4>
+            <p class="text-black-300 font-poppins text-[15px] font-normal my-7">
+              Passwords must have at least 8 characters and contain at least two of the following: uppercase letters,
+              lowercase letters, numbers, and symbols
+            </p>
+
+            <div class="">
+              <label class="text-black-300 font-poppins text-xs font-medium leading-[150%] mb-1">New Password</label>
+              <input
+                type="password"
+                class="py-[15px] px-5 w-full border placeholder:text-gray-600 border-gray-800 rounded-lg bg-gray-400 text-black-300 text-[15px] font-normal font-poppins focus:ring-orange-400 focus:border-orange-400 focus:border"
+                placeholder="New Password..."
+              />
+            </div>
+            <div class="mt-5">
+              <label class="text-black-300 font-poppins text-xs font-medium leading-[150%] mb-1"
+                >Confirm Password</label
+              >
+              <input
+                type="password"
+                class="py-[15px] px-5 w-full border placeholder:text-gray-600 border-gray-800 rounded-lg bg-gray-400 text-black-300 text-[15px] font-normal font-poppins focus:ring-orange-400 focus:border-orange-400 focus:border"
+                placeholder="Confirm Password..."
+              />
+            </div>
+
+            <a
+              href="#"
+              data-modal-target="default-modal-success"
+              data-modal-hide="default-modal-pass"
+              data-modal-toggle="default-modal-success"
+              class="bg-orange-400 mt-[30px] rounded-lg py-3 px-6 block text-white-300 font-poppins font-medium text-center hover:bg-orange-900 transition-all"
+              >Update Password</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SUCCESS-MODAL -->
+    <div
+      id="default-modal-success"
+      tabindex="-1"
+      aria-hidden="true"
+      class="hidden !bg-[#232c1b9e] z-[9999] h-screen overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 justify-center sm:!items-center !items-start w-full md:inset-0 max-h-full"
+    >
+      <div class="relative md:w-[550px] sm:w-[400px] w-full max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white-300 sm:rounded-xl rounded-t-none rounded-b-xl">
+          <!-- Modal header -->
+          <div class="absolute top-5 sm:right-12 right-5">
+            <button type="button" class="" data-modal-hide="default-modal-success">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                class="sm:block hidden"
+              >
+                <path d="M13 1L1 13" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 13L1 1" stroke="#242D1C" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                class="sm:hidden block"
+              >
+                <rect width="36" height="36" rx="8" fill="#E7600E" />
+                <path d="M23 23L13 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+                <path d="M13 23L23 13" stroke="#F2EBE2" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="sm:pt-[50px] pb-11 sm:px-[50px] px-5 p-[20px]">
+            <h4
+              class="text-black-300 sm:text-[26px] text-[21px] font-capitolium font-bold leading-[125%] pb-[30px] border-b border-black-500"
+            >
+              Successful password reset
+            </h4>
+            <p class="text-black-300 font-poppins text-[15px] font-normal my-7">
+              Your password has successfully been reset. You can now login to your account.
+            </p>
+
+            <a
+              href="#"
+              data-modal-hide="default-modal-success"
+              class="bg-orange-400 mt-[30px] rounded-lg py-3 px-6 block text-white-300 font-poppins font-medium text-center hover:bg-orange-900 transition-all"
+              >Login</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination1",
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              "<span>Image</span>" +
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              " of " +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+      var swiper = new Swiper(".popSwiper2", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination2",
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              "<span>Image</span>" +
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              " of " +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+
+      var swiper = new Swiper(".popSwiper3", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination3",
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              "<span>Image</span>" +
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              " of " +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+
+      var swiper = new Swiper(".popSwiper4", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination4",
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              "<span>Image</span>" +
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              " of " +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+
+      var swiper = new Swiper(".popSwiper5", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination5",
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              "<span>Image</span>" +
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              " of " +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+      let showEye1 = document.getElementById("showEye1");
+      let togglePass = document.getElementById("togglePass");
+      togglePass.onclick = function () {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          showEye1.src = "images/showEye.svg";
+          x.type = "text";
+        } else {
+          x.type = "password";
+          showEye1.src = "images/hideEye.svg";
+        }
+      };
+      document.getElementById("close").addEventListener("click", function () {
+        let modal = document.getElementById("popup-modal-new");
+        let overlay = document.querySelector(".fixed.inset-0");
+
+        modal.style.display = "none";
+        overlay.style.display = "none";
+        location.reload();
+      });
+    </script>
+  </body>
+</html>
